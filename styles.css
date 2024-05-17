@@ -21,9 +21,13 @@ body {
 }
 
 .card {
-    margin: 10px;
     border: 1px solid grey;
     border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
 }
 
 .bg-yellow {
@@ -37,3 +41,28 @@ body {
 .bg-green {
     background: #e5ffe7;
 }
+
+.container {
+    margin: 20px auto;
+    max-width: 750px;
+    padding-top: 30px;
+}
+.info {
+    margin-bottom: 20px;
+}
+.info-text {
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+
+}
+
