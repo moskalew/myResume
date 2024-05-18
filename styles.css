@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+
+
+
 body {
     margin: 0 auto;
     color: #0f141e;
@@ -232,4 +236,33 @@ body {
 .form-group input::placeholder, 
 .form-group textarea::placeholder {
     color: #6a6a6a9b;
+}
+
+@media (max-width: 750px) {
+    .container {
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
