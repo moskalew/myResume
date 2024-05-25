@@ -204,6 +204,39 @@ body {
 .table td:nth-child(3) {
     color: #86898f;
 }
+
+
+@media (max-width: 320px) {
+    .responsive-table {
+      width: 100%;
+      display: block;
+    }
+  
+    .table thead {
+      display: none;
+    }
+  
+    .table tr {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .table td {
+      display: block;
+      text-align: left;
+      position: relative;
+    }
+  
+    .table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 10px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
 .info {
     display: flex;
 }
@@ -275,6 +308,12 @@ body {
 .title2 {
     text-align: center;
     margin-bottom: 15px;
+}
+
+@media (max-width: 320px) {
+    .title2 {
+        font-size: 16px;
+    }
 }
 
 .title4 {
